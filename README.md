@@ -6,3 +6,7 @@ A Streamlit App for loading data into Snowflake for grandmas :older_woman:
 * Configure your Snowflake Snowpark credentials in the creds-sample.json file.
 * Run the app with Streamlit run app.py
 * After uploading a file, look for the new table in Snowflake in the database and schema you configured in the credentials
+
+
+https://user-images.githubusercontent.com/73932533/217540301-6a7ec5f3-4fec-489c-b7eb-889143e857d1.mov
+
