@@ -1,0 +1,9 @@
+{
+    "account": "account.region",
+    "user": "myuser",
+    "role": "myrole",
+    "password": "************",
+    "warehouse": "mywarehouser",
+    "database": "mydb",
+    "schema": "myschema"
+  }
