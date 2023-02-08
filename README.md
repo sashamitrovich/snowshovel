@@ -1,4 +1,4 @@
-# snowshovel
+# Snowshovel ❄️
 A Streamlit App for loading data into Snowflake for grandmas :older_woman:
 
 This 25 line short Stramlit app does the following:
