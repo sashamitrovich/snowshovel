@@ -1,6 +1,11 @@
 # snowshovel
 A Streamlit App for loading data into Snowflake for grandmas :older_woman:
 
+This 25 line short Stramlit app does the following:
+* Accepts a CSV file via the File Uploader component
+* Creates a Pandas DataFrame from this file
+* Uses Snowpark to create and load a table on Snowflakefrom this DataFrame
+
 ## Setup:
 * Setup your Streamlit environment, as described here: https://quickstarts.snowflake.com/guide/getting_started_with_snowpark_for_python_streamlit/index.html?index=..%2F..index#1
 * Configure your Snowflake Snowpark credentials in the creds-sample.json file.
