@@ -1,7 +1,8 @@
-# Snowshovel ❄️
-A Streamlit App for loading data into Snowflake for grandmas :older_woman:
+# Snowshovel
+A Streamlit app for loading data into Snowflake ❄️ that any grandma :older_woman: can use 
 
 This 25 line short Stramlit app does the following:
+
 * Accepts a CSV file via the File Uploader component
 * Creates a Pandas DataFrame from this file
 * Uses Snowpark to create and load a table on Snowflakefrom this DataFrame
