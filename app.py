@@ -22,8 +22,10 @@ if file is not None:
     df= loadInferAndPersist(file)
     st.subheader("Great, your data has been uploaded to Snowflake!")
     
+    with st.expander("Technical information"):
+        
+        u.describeSnowparkDF(df)
+        st.write("Data loaded to Snowflake:")
+        st.dataframe(df)
     
-    u.describeSnowparkDF(df)
-    
-    st.write("Data loaded to Snowflake:")
-    st.dataframe(df)
+ 
