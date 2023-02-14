@@ -14,14 +14,18 @@ def describeSnowparkDF(snowpark_df: snowpark.DataFrame):
     categorical_types = [T.StringType]
     categorical_columns = [c.name for c in snowpark_df.schema.fields if type(c.datatype) in categorical_types]
 
+    st.write("Relational schema:")
+  
+    
+    columns = [c for c in snowpark_df.schema.fields]
+    st.write(columns)
+    
     col1, col2, = st.columns(2)
-
     with col1:
         st.write('Numeric columns:\t', numeric_columns)
 
     with col2:
         st.write('Categorical columns:\t', categorical_columns)
     
-
     # Calculte statistics for our dataset
     st.dataframe(snowpark_df.describe().sort('SUMMARY'), use_container_width=True)

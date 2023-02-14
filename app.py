@@ -21,10 +21,9 @@ file = st.file_uploader("Drop your CSV here", type={"csv"})
 if file is not None:
     df= loadInferAndPersist(file)
     st.subheader("Great, your data has been uploaded to Snowflake!")
-    # st.write("Relational schema:")
-    # st.write(df.schema)
-    u.describeSnowparkDF(df)
     
+    
+    u.describeSnowparkDF(df)
     
     st.write("Data loaded to Snowflake:")
     st.dataframe(df)
