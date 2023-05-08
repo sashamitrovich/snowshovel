@@ -1,5 +1,5 @@
 # Snowshovel
-A Streamlit app for loading data into Snowflake ❄️ that any grandma :older_woman: can use 
+A Streamlit app for loading data into Snowflake ❄️ that any kindergartener :baby: can use 
 
 This 25 line short Stramlit app does the following:
 
