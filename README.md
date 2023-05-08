@@ -14,5 +14,5 @@ This 25 line short Stramlit app does the following:
 * After uploading a file, look for the new table in Snowflake in the database and schema you configured in the credentials
 
 
-https://user-images.githubusercontent.com/73932533/217540301-6a7ec5f3-4fec-489c-b7eb-889143e857d1.mov
 
+![GitHubQuickDemo](https://user-images.githubusercontent.com/15609655/236762568-a62c37bf-b86b-4024-abbf-d66566f4c1fe.gif)
